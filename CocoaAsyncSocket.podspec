@@ -35,4 +35,6 @@ Updated and maintained by Deusty LLC and the Apple development community.
   s.ios.frameworks = 'CFNetwork', 'Security'
   s.tvos.frameworks = 'CFNetwork', 'Security'
   s.osx.frameworks = 'CoreServices', 'Security'
+
+  s.dependency 'CocoaLumberjack'
 end
